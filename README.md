@@ -13,7 +13,8 @@ It is automatically installed when using our setup script, which can be found at
 
 1. Clone this repository and open the directory in a new terminal window.
 2. Run `npm install`.
-3. Start the application in development mode with `ng serve`. It will be available on `localhost:4200`.
+3. Run `git submodule update --init --recursive` to update the submodules.
+4. Start the application in development mode with `ng serve`. It will be available on `localhost:4200`.
 
 ### Starting the Frontend with a complete mock environment
 
